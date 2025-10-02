@@ -1,8 +1,9 @@
+import Home from "./(home)/Home";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className="">
-     
+    <div className="bg-cotton">
+      <Home />
     </div>
   );
 }
