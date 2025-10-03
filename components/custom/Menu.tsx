@@ -1,6 +1,13 @@
 'use client'
 import Link from "next/link";
-import { useState } from "react";
+import { Ref, useRef, useState } from "react";
+import { motion } from "motion/react"
+
+type Position = {
+  left: number;
+  width: number;
+  opacity: number;
+};
 
 export default function Menu() {
     const [selected, setSelected] = useState("Home");
@@ -20,20 +27,60 @@ export default function Menu() {
         href: "/write",
     },
     ])
+    const [position, setPosition] = useState({
+      left: 0,
+      width: 0,
+      opacity: 0
+    } as Position)
 
   return (
-    <div className="flex flex-row gap-4 items-center justify-center bg-blue-100 border border-blue-300 rounded-full px-3 py-1">
+    <div 
+    onMouseLeave={() => {
+      setPosition(pv =>({
+        ...pv,
+        opacity: 0
+      }))
+    }}
+    className="relative flex flex-row gap-4 items-center justify-center bg-blue-100 border border-blue-300 rounded-full px-3">
       {
         links.map((link, index) => (
-          <Link 
-          href={link.href} 
-          className={`px-6 py-2 ${selected === link.name ? "bg-black text-white rounded-full" : ""}`} 
-          onClick={() => setSelected(link.name)}
-          key={index}
-          >{link.name}</Link>
+         <Tab key={index} link={link} onClick={setSelected} setPosition={setPosition}>{link.name}</Tab>
         ))
       }
+      <Cursor position={position}></Cursor>
       
     </div>
   );
+}
+
+const Tab = ({children, onClick, link, setPosition} 
+  : {children: any, onClick: (name: string) => void, link: {name: string, href: string}, setPosition: (position: Position) => void}
+) => {
+  const ref: Ref<HTMLAnchorElement> = useRef(null)
+  
+  return (
+          <Link 
+          ref={ref}
+          onMouseEnter={() => { 
+            if(!ref.current) return
+
+            const {width} = ref.current.getBoundingClientRect()
+
+            setPosition({
+              width,
+              opacity: 1,
+              left: ref.current.offsetLeft
+            })
+           }}
+          href={link.href}
+          className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
+          onClick={() => onClick(link.name)}
+          >
+            {children}
+          </Link>
+  )
+} 
+
+const Cursor = ({position} : {position: Position}) => {
+  return <motion.div animate={position} className="absolute z-0 h-7 rounded-full bg-black md:h-10"></motion.div>
 }
