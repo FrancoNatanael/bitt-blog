@@ -2,6 +2,9 @@ import PostCard from "../../components/custom/PostCard";
 import data from "../../data/data.json";
 
 export default function Home() {
+  const getIsHorizontalCard = (index: number) => {
+    return index == 1 || index == 2
+  }
 
   return (
     <div className="py-20">
@@ -14,9 +17,18 @@ export default function Home() {
         Bitt is a platform for creating and sharing <span className="">creative</span> blogs.
       </p>
 
-      {data.map((post: any) => (
-        <PostCard key={post.id} title={post.title} description={post.description} readTime={post.readTime} category={post.category}/>
-      ))}
+      <div className="grid gap-4 grid-cols-3 mt-6">
+        {data.filter((x: any, i: number) => i <= 3).map((post: any, index) => (
+          <PostCard 
+          key={index} 
+          title={post.title} 
+          description={post.description} 
+          readTime={post.readTime} 
+          category={post.category}
+          horizontal={getIsHorizontalCard(index)}
+          className={`${getIsHorizontalCard(index) ? 'col-span-2' : 'col-span-1' }`}/>
+        ))}
+      </div>
     </div>
   );
 }
