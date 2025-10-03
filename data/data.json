@@ -1,72 +1,122 @@
 [
-    {
-      "title": "The Playlist That Changed My Commute",
-      "description": "Deploy your new project in one-click Deploy your new project in one-click Deploy your new project in one-click",
-      "readTime": "4 min read",
-      "category": "music",
-      "text": "For months, my commute felt like wasted time—hours of staring at brake lights and wishing I was somewhere else. Then one day, I built a playlist just for those moments, carefully mixing upbeat tracks with slower ones to match the rhythm of the road. Suddenly, traffic wasn’t just traffic anymore. It became a stage, and every stoplight felt like the cue for another act in the show. Certain songs became tied to landmarks—a chorus with the gas station, a guitar solo with the overpass. Over time, I stopped dreading the drive. Music turned the commute into a journey I looked forward to, not just a distance I had to cross."
-    },
-    {
-      "title": "A Novel You Can Finish in One Night",
-      "description": "Exploring a book that feels like a conversation with an old friend.",
-      "readTime": "5 min read",
-      "category": "books",
-      "text": "Not every book demands months of dedication. Some slip into your life softly, and before you know it, you’ve devoured them in a single sitting. This particular novel felt less like reading and more like listening to a friend tell their story over coffee. The characters weren’t extraordinary, but they were honest—raw in their flaws and gentle in their hopes. Each page made me want to know them more, to hear just one more sentence. By the time I looked up, the sky outside had shifted from dusk to dawn. I closed the book with that rare sense of both fullness and loss—the fullness of having experienced something beautiful, and the loss of knowing it was over too soon."
-    },
-    {
-      "title": "The Soundtrack of a Rainy Day",
-      "description": "Why rain makes music more alive.",
-      "readTime": "3 min read",
-      "category": "music",
-      "text": "There’s something about rain that transforms the way we hear music. A familiar melody feels new when paired with the rhythm of droplets hitting glass. The soft percussion outside blends with a bassline, and suddenly a simple ballad becomes cinematic. On rainy days, I build playlists made of acoustic tracks, slow jazz, and piano-driven songs that echo the weather’s calm chaos. It’s less about background music and more about creating a mood that matches nature’s soundtrack. The next time it rains, try sitting by a window with your headphones on—let the weather be part of the music, not just the backdrop."
-    },
-    {
-      "title": "The Movie That Broke the Fourth Wall of My Mind",
-      "description": "Not every film is just entertainment—some leave cracks in your reality.",
-      "readTime": "6 min read",
-      "category": "movies",
-      "text": "We go into movies expecting to be entertained, but every now and then one completely rewrites how we see storytelling. I once watched a film where the characters didn’t just speak to each other—they spoke to me. It wasn’t just clever dialogue or artistic editing; it was unsettling, as though the screen had collapsed and I was part of the narrative. I left the theater questioning not just the movie’s reality, but my own. Isn’t that the power of cinema? To make us think that maybe we’re also characters, maybe we’re also being watched, maybe our lives are just scenes waiting for meaning. I can’t rewatch that film without remembering how it first fractured my sense of what’s real."
-    },
-    {
-      "title": "How a Jazz Album Taught Me Patience",
-      "description": "A reflection on learning to slow down through improvisation.",
-      "readTime": "4 min read",
-      "category": "music",
-      "text": "Jazz doesn’t care about your schedule. It doesn’t rush to get to the chorus or wrap up neatly in three minutes. Instead, it lingers. It experiments. It makes mistakes and then turns them into beauty. Listening to a live jazz album for the first time was frustrating—I kept waiting for the big moment, the payoff. But somewhere in the middle of a ten-minute saxophone solo, I realized the point wasn’t to wait for something to happen. The point was that it already was happening. Jazz taught me patience. It taught me to stop rushing toward resolutions and start enjoying the space in between. In a world addicted to speed, jazz is a reminder to slow down and actually listen."
-    },
-    {
-      "title": "The Book I Carried Everywhere",
-      "description": "How one paperback became a companion through bus rides and waiting rooms.",
-      "readTime": "5 min read",
-      "category": "books",
-      "text": "We don’t always remember books for their plots—we remember where they were with us. I once had a small paperback that never left my backpack. It was dog-eared, coffee-stained, and heavier with memory than with words. I read it on buses, in waiting rooms, under dim café lights. Some chapters are forever tied to certain places: a tense moment on page 132 reminds me of a rainy morning at the station; the ending reminds me of a quiet night in a laundromat. That book wasn’t just a story—it was a companion, a thread running through different parts of my life. And even now, years later, I can’t open it without being transported back to those places."
-    },
-    {
-      "title": "The Film Score That Spoke Louder Than the Dialogue",
-      "description": "When the music became the true star of the movie.",
-      "readTime": "4 min read",
-      "category": "movies",
-      "text": "Some films live in our memory not because of their story, but because of their music. I once saw a movie where the dialogue faded into the background, but the score was unforgettable. Strings swelled at just the right moment, percussion echoed like a heartbeat, and quiet piano notes said more than any character ever could. I left the theater humming the soundtrack, not quoting the script. For me, that movie wasn’t just visual—it was symphonic. Sometimes, words fail to capture emotions, but music never does. A film score can speak directly to our feelings in a way no actor ever could."
-    },
-    {
-      "title": "Rediscovering Old Records in a Digital World",
-      "description": "Vinyl isn’t just nostalgia—it’s a different way of listening.",
-      "readTime": "5 min read",
-      "category": "music",
-      "text": "In the age of streaming, where millions of songs live a tap away, vinyl feels almost radical. Dropping the needle on a record demands patience: you listen to the whole album, track by track, without skipping. The warm crackle at the beginning of a song isn’t noise—it’s history whispering, reminding you that this music has lived before you. I started collecting old records not because they were trendy, but because they made me listen differently. On vinyl, songs feel heavier, as if the grooves themselves carry weight. In a way, vinyl isn’t about music alone—it’s about ritual. It’s about slowing down and remembering that listening can be an experience, not just background noise."
-    },
-    {
-      "title": "A Short Story Inside a Longer Book",
-      "description": "How a single chapter can outshine the entire novel.",
-      "readTime": "3 min read",
-      "category": "books",
-      "text": "Sometimes a book doesn’t live in your memory as a whole—it’s one chapter that lingers forever. I remember reading a novel where everything seemed fine, but then I reached a chapter so powerful it stopped me in my tracks. The pacing, the imagery, the dialogue—everything aligned to create a moment of brilliance. That chapter felt like a short story hidden within a bigger story, a jewel inside a rough stone. I’ve re-read it countless times, often skipping the rest of the book. It’s a reminder that sometimes, even within something larger, one fragment can shine brighter than the whole."
-    },
-    {
-      "title": "The Movie I Wish I Could Watch for the First Time Again",
-      "description": "Some films are experiences you can’t truly repeat.",
-      "readTime": "6 min read",
-      "category": "movies",
-      "text": "There are films you can rewatch endlessly, but nothing compares to the very first time. The first viewing carries shock, wonder, and an innocence that can’t be replicated. I remember one movie in particular that left me speechless when the credits rolled. The twists, the atmosphere, the raw emotion—it was all a symphony of firsts. Watching it again is still enjoyable, but now I know what’s coming. That’s the bittersweet truth of cinema: the magic of the unknown only happens once. I often wish I could erase it from my memory, just to feel that lightning strike again. Maybe that’s why we chase new stories—to keep searching for that first-time feeling."
-    }
-]  
+  {
+    "id": 1,
+    "title": "The Playlist That Changed My Commute",
+    "description": "Deploy your new project in one-click Deploy your new project in one-click Deploy your new project in one-click",
+    "text": "For months, my commute felt like wasted time—hours of staring at brake lights and wishing I was somewhere else. Then one day, I built a playlist just for those moments, carefully mixing upbeat tracks with slower ones to match the rhythm of the road...",
+    "readTime": 4,
+    "category": "music",
+    "author": "Franco Tomaino",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-10-03T11:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "A Novel You Can Finish in One Night",
+    "description": "Exploring a book that feels like a conversation with an old friend.",
+    "text": "Not every book demands months of dedication. Some slip into your life softly, and before you know it, you’ve devoured them in a single sitting...",
+    "readTime": 5,
+    "category": "books",
+    "author": "Sol Fernandez",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-09-15T09:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "The Soundtrack of a Rainy Day",
+    "description": "Why rain makes music more alive.",
+    "text": "There’s something about rain that transforms the way we hear music...",
+    "readTime": 3,
+    "category": "music",
+    "author": "Franco Tomaino",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-09-20T14:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "The Movie That Broke the Fourth Wall of My Mind",
+    "description": "Not every film is just entertainment—some leave cracks in your reality.",
+    "text": "We go into movies expecting to be entertained, but every now and then one completely rewrites how we see storytelling...",
+    "readTime": 6,
+    "category": "movies",
+    "author": "Sol Fernandez",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-09-25T19:45:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "How a Jazz Album Taught Me Patience",
+    "description": "A reflection on learning to slow down through improvisation.",
+    "text": "Jazz doesn’t care about your schedule. It doesn’t rush to get to the chorus or wrap up neatly in three minutes...",
+    "readTime": 4,
+    "category": "music",
+    "author": "Franco Tomaino",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-09-28T16:20:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "The Book I Carried Everywhere",
+    "description": "How one paperback became a companion through bus rides and waiting rooms.",
+    "text": "We don’t always remember books for their plots—we remember where they were with us...",
+    "readTime": 5,
+    "category": "books",
+    "author": "Sol Fernandez",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-09-29T12:10:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "The Film Score That Spoke Louder Than the Dialogue",
+    "description": "When the music became the true star of the movie.",
+    "text": "Some films live in our memory not because of their story, but because of their music...",
+    "readTime": 4,
+    "category": "movies",
+    "author": "Franco Tomaino",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-09-30T18:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "title": "Rediscovering Old Records in a Digital World",
+    "description": "Vinyl isn’t just nostalgia—it’s a different way of listening.",
+    "text": "In the age of streaming, where millions of songs live a tap away, vinyl feels almost radical...",
+    "readTime": 5,
+    "category": "music",
+    "author": "Sol Fernandez",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-10-01T09:15:00.000Z"
+  },
+  {
+    "id": 9,
+    "title": "A Short Story Inside a Longer Book",
+    "description": "How a single chapter can outshine the entire novel.",
+    "text": "Sometimes a book doesn’t live in your memory as a whole—it’s one chapter that lingers forever...",
+    "readTime": 3,
+    "category": "books",
+    "author": "Franco Tomaino",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-10-02T10:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "title": "The Movie I Wish I Could Watch for the First Time Again",
+    "description": "Some films are experiences you can’t truly repeat.",
+    "text": "There are films you can rewatch endlessly, but nothing compares to the very first time...",
+    "readTime": 6,
+    "category": "movies",
+    "author": "Sol Fernandez",
+    "authorImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA...",
+    "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "createdAt": "2025-10-03T08:40:00.000Z"
+  }
+]

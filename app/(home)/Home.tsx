@@ -1,7 +1,12 @@
+'use client'
+import { useState } from "react";
 import PostCard from "../../components/custom/PostCard";
 import data from "../../data/data.json";
+import { BlogPost } from "@/types/post.types";
 
 export default function Home() {
+  const [posts, setPosts] = useState<Array<BlogPost>>(data)
+  
   const getIsHorizontalCard = (index: number) => {
     return index == 1 || index == 2
   }
@@ -21,6 +26,7 @@ export default function Home() {
         {data.filter((x: any, i: number) => i <= 3).map((post: any, index) => (
           <PostCard 
           key={index} 
+          id={post.id}
           title={post.title} 
           description={post.description} 
           readTime={post.readTime} 

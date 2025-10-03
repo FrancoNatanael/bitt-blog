@@ -1,9 +1,17 @@
+'use client'
 import { cn } from "@/lib/utils";
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card";
 import { Badge } from "../ui/badge";
+import { useRouter } from "next/navigation";
 
-export default function PostCard({title, description, readTime, category, horizontal, className}: any){
-    return <Card className={`p-4 ${cn(className, horizontal ? 'grid grid-cols-2 ' : '')}`}>
+export default function PostCard({id, title, description, readTime, category, horizontal, className}: any){
+    const {push} = useRouter()
+
+    const onClick = () => {
+        push(`/post/${id}`)
+    }
+
+    return <Card className={`p-4 cursor-pointer ${cn(className, horizontal ? 'grid grid-cols-2 ' : '')}`} onClick={onClick}>
         <CardHeader className={`p-0`}>
             <img 
             src="default-image.jpg" 
@@ -24,7 +32,7 @@ export default function PostCard({title, description, readTime, category, horizo
             <CardFooter className="p-0 mt-4 flex justify-between w-full flex-none">
                     <span className="flex items-center gap-2">
                         <div className="w-[10px] h-[10px] bg-orange-500 rounded-full"></div>
-                        {readTime}
+                        {readTime} <span className="text-xs">min. read</span>
                     </span>
                     <Badge>{category}</Badge>
             </CardFooter>
