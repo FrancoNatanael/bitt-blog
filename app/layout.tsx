@@ -29,9 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} mx-auto px-6 py-4 bg-gray-50`}
       >
         <Navbar />
-        <div className="px-12">
-          {children}
-        </div>
+        <div className="px-12">{children}</div>
       </body>
     </html>
   );
