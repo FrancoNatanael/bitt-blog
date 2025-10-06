@@ -11,11 +11,11 @@ export default function PostCard({id, title, description, readTime, category, ho
         push(`/post/${id}`)
     }
 
-    return <Card className={`p-4 cursor-pointer ${cn(className, horizontal ? 'grid grid-cols-2 ' : '')}`} onClick={onClick}>
+    return <Card className={`p-4 cursor-pointer ${cn(className, horizontal ? 'grid md:grid-cols-2 ' : '')}`} onClick={onClick}>
         <CardHeader className={`p-0`}>
             <img 
             src="default-image.jpg" 
-            className="rounded-md h-full row-span-full"/>
+            className="rounded-md h-full row-span-full w-full"/>
         </CardHeader>
 
         <div className="h-full flex flex-col justify-between">

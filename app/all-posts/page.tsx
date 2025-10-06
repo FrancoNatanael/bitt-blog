@@ -10,7 +10,7 @@ export default function Page(){
     return <div className="py-20">
         <h3 className="text-4xl tracking-tight">All posts</h3>
 
-        <div className="grid gap-4 grid-cols-3 mt-6">
+        <div className="grid gap-4 md:grid-cols-3 mt-6">
             {posts.map((post: BlogPost, index: number) => (
                 <PostCard 
                 key={index} 

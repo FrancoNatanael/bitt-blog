@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} mx-auto px-6 py-4`}
+        className={`${geistSans.variable} ${geistMono.variable} mx-auto px-6 py-4 bg-gray-50`}
       >
         <Navbar />
         <div className="px-12">

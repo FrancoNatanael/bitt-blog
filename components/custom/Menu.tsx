@@ -73,7 +73,7 @@ const Tab = ({children, onClick, link, setPosition}
             })
            }}
           href={link.href}
-          className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
+          className="relative z-10 block cursor-pointer px-3 py-1 text-xs text-white mix-blend-difference md:px-5 md:py-2 md:text-base"
           onClick={() => onClick(link.name)}
           >
             {children}
@@ -82,5 +82,5 @@ const Tab = ({children, onClick, link, setPosition}
 } 
 
 const Cursor = ({position} : {position: Position}) => {
-  return <motion.div animate={position} className="absolute z-0 h-7 rounded-full bg-black md:h-10"></motion.div>
+  return <motion.div animate={position} className="absolute z-0 h-5 rounded-full bg-black md:h-8"></motion.div>
 }

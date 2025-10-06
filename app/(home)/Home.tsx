@@ -22,7 +22,7 @@ export default function Home() {
         Bitt is a platform for creating and sharing <span className="">creative</span> blogs.
       </p>
 
-      <div className="grid gap-4 grid-cols-3 mt-6">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 mt-6 mx-auto">
         {data.filter((x: any, i: number) => i <= 3).map((post: any, index) => (
           <PostCard 
           key={index} 
@@ -32,7 +32,7 @@ export default function Home() {
           readTime={post.readTime} 
           category={post.category}
           horizontal={getIsHorizontalCard(index)}
-          className={`${getIsHorizontalCard(index) ? 'col-span-2' : 'col-span-1' }`}/>
+          className={`${getIsHorizontalCard(index) ? 'md:col-span-2' : 'col-span-1' }`}/>
         ))}
       </div>
     </div>
