@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div className="py-20">
-      <h1 className="text-6xl tracking-tight">
+      <h1 className="text-6xl tracking-tight text-[var(--blue-900)]">
         Explore, save and share
         <br />
         <span className="italic font-semibold">creative blogs</span>

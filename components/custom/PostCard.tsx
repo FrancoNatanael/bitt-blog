@@ -39,17 +39,17 @@ export default function PostCard({
 
       <div className="h-full flex flex-col justify-between">
         <div className="flex-1 flex flex-col justify-center">
-          <CardTitle className="font-medium text-2xl tracking-tight">
+          <CardTitle className="font-semibold text-2xl tracking-tight text-[var(--blue-900)]">
             {title}
           </CardTitle>
 
-          <CardDescription className="text-base mt-2">
+          <CardDescription className="text-base mt-2 text-[var(--blue-900)]">
             {description}
           </CardDescription>
         </div>
 
         <CardFooter className="p-0 mt-4 flex justify-between w-full flex-none">
-          <span className="flex items-center gap-2">
+          <span className="flex items-center gap-2 text-[var(--blue-900)]">
             <div className="w-[10px] h-[10px] bg-orange-500 rounded-full"></div>
             {readTime} <span className="text-xs">min. read</span>
           </span>

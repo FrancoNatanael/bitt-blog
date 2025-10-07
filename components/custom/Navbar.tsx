@@ -11,7 +11,7 @@ export default function Navbar() {
 
       <Menu />
 
-      <Button className="rounded-full">Sign in</Button>
+      <Button className="rounded-full" variant={'outline'}>Sign in</Button>
     </div>
   );
 }

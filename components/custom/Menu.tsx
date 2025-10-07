@@ -98,7 +98,7 @@ const Cursor = ({ position }: { position: Position }) => {
   return (
     <motion.div
       animate={position}
-      className="absolute z-0 h-5 rounded-full bg-black md:h-8"
+      className="absolute z-0 h-5 rounded-full bg-[var(--blue-900)] md:h-8"
     ></motion.div>
   );
 };
