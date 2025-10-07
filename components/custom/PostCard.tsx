@@ -49,7 +49,7 @@ export default function PostCard({
         </div>
 
         <CardFooter className="p-0 mt-4 flex justify-between w-full flex-none">
-          <span className="flex items-center gap-2 text-[var(--blue-900)]">
+          <span className="flex items-center gap-2 text-[var(--blue-900)] ">
             <div className="w-[10px] h-[10px] bg-orange-500 rounded-full"></div>
             {readTime} <span className="text-xs">min. read</span>
           </span>
